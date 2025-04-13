@@ -1,0 +1,135 @@
+table{
+   border-collapse: collapse;
+   width: 100%;
+   border-collapse: collapse;
+   background-color: #1c1c1c;
+   color: #fff;
+   font-size: 16px;
+   margin-top: 20px;
+   border-radius: 8px;
+   box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+   margin: 20px 0;
+}
+
+th{
+    background-color: #e10600;
+    color: white;
+    padding: 12px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+td{
+    padding: 10px;
+    border-top: 1px solid #444;
+}
+
+th, td{
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    border-left: none;
+    border-right: none;
+    padding: 8px;
+    text-align: left; 
+}
+
+.Topo-fixo{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    padding: 10px 40px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+    box-sizing: border-box;
+}
+
+.Logo{
+    max-width: 80px;
+    height: auto;
+    flex-shrink: 0;
+}
+
+.Topo-fixo h1{
+    flex: 1;
+    text-align: center;
+    font-size: 30px;
+    margin: 0 10px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    background-color: #111;
+    color: white;
+    border-bottom: 2px solid #e10600;
+}
+
+body{
+    margin-top: 100px;
+    background-color: #111;
+    color: #f1f1f1;
+    font-family: 'Segoe UI', 'Roboto', sans-serif;
+    margin: 0;
+    padding-top: 120px;
+    font-family: 'Orbitron', sans-serif;
+}
+
+
+.EquipeMc{
+    font-size: 13px;
+    color: rgb(255, 132, 0);
+}
+
+.EquipeRed{
+    font-size: 13px;
+    color: red
+}
+
+.EquipeMer{
+    font-size: 13px;
+    color: rgb(105, 101, 101)
+}
+
+.EquipeFe{
+    font-size: 13px;
+    color: rgb(255, 247, 0);
+}
+
+.EquipeWil{
+    font-size: 13px;
+    color: rgb(22, 125, 251);
+}
+
+.EquipeHa{
+    font-size: 13px;
+    color: rgb(208, 4, 4);
+}
+
+.EquipeAs{
+    font-size: 13px;
+    color: rgb(13, 142, 86);
+}
+
+.EquipeSau{
+    font-size: 13px;
+    color: rgb(245, 70, 70);
+}
+
+.EquipeRa{
+    font-size: 13px;
+    color: rgb(170, 162, 162);
+}
+
+.EquipeAl{
+    font-size: 13px;
+    color: rgb(28, 28, 176);
+}
+
+.lideres{
+    background-color: #262626;
+    font-weight: bold;
+}
+
