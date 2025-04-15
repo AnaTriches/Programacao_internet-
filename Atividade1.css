@@ -1,0 +1,53 @@
+table{
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 600px;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+
+.TituloTabela{
+    background-color: #0d5188;
+    color: white;
+    font-size: 13px;
+    font-weight: bold;
+    padding: 4px;
+}
+
+.PrimeiraLinha{
+    background-color: #66c5e3;
+    color: black;
+}
+
+.posicao{
+    background-color: silver;
+    width: 60px;
+    border: 1px solid #999;
+    padding: 4px;
+    border: 1px solid #c7e7f3
+}
+
+.Linhasmeio{
+    background-color: #c7e7f3;
+}
+
+.Cidades{
+    color: #0d5188;
+}
+
+.Populacao{
+    width: 90px;
+}
+
+td, th {
+    padding: 4px;
+    border: none;
+}
+
+.PrimeiraLinha th {
+    background-color: #66c5e3;
+    color: black;
+    border: 1px solid #c7e7f3;
+    padding: 4px;
+}
